@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <form method="/" action="/" id="form">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" placeholder="Enter your name" id="name" required/>
+        <label for="email">Email</label>
+        <input type="email" name="email"  placeholder="Enter your email" id="email" required/>
+        <label for="password">password</label>
+        <input type="text" name="password" placeholder="Enter your password" required/>
+        <label for="phone">phone</label>
+        <input type="number" name="phone" placeholder="Enter your Phone number" required/>
+        <div class="gender-container">
+            <label for="sex">Male</label>
+            <input id="gender" type="radio" name="sex"/>
+            <label for="sex">Female</label>
+            <input id="gender" type="radio" name="sex"/>
+        </div>
+        <button id="btn" type="submit">Submit</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
